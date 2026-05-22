@@ -1,0 +1,9 @@
+{
+  "id": "moodskins",
+  "name": "MoodSkins",
+  "version": "1.0.0",
+  "description": "Affiche les vrais skins Bedrock sur le site MoodCraft avec l API Geyser.",
+  "url": "https://moodcraft.fr",
+  "authors": ["MoodCraft"],
+  "azuriom_api": "1.2.0"
+}

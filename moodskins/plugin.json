@@ -1,15 +1,10 @@
 {
   "id": "moodskins",
   "name": "MoodSkins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Affiche les vrais skins Bedrock sur le site MoodCraft via l API Geyser.",
   "url": "https://moodcraft.fr",
-  "authors": [
-    "MoodCraft"
-  ],
+  "authors": ["MoodCraft"],
   "azuriom_api": "1.2.0",
-  "providers": [
-    "\\Azuriom\\Plugin\\Moodskins\\Providers\\MoodskinsServiceProvider",
-    "\\Azuriom\\Plugin\\Moodskins\\Providers\\RouteServiceProvider"
-  ]
+  "providers": ["\\Azuriom\\Plugin\\Moodskins\\Providers\\MoodskinsServiceProvider"]
 }

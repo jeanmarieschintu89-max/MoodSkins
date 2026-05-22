@@ -1,0 +1,19 @@
+name: MoodSkins
+version: '1.0.0'
+main: fr.moodcraft.moodskins.MoodSkinsPlugin
+api-version: '1.21'
+author: MoodCraft
+description: Synchronise les skins Bedrock via Geyser et SkinsRestorer.
+softdepend:
+  - floodgate
+  - Geyser-Spigot
+  - SkinsRestorer
+commands:
+  moodskins:
+    description: Gestion MoodSkins serveur
+    usage: /moodskins <reload|debug|apply>
+    permission: moodskins.admin
+permissions:
+  moodskins.admin:
+    description: Permission admin MoodSkins
+    default: op

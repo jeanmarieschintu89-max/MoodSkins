@@ -1,12 +1,27 @@
 # MoodSkins
 
-Projet site MoodCraft pour afficher les vrais skins Bedrock sur moodcraft.fr.
+Plugin Paper MoodCraft pour synchroniser les vrais skins Bedrock en jeu.
 
-Priorite actuelle : site Azuriom.
+## Fonctionnement
 
-Fonctionnement :
-- pseudo Bedrock avec point
-- gamertag sans point
-- XUID via API Geyser
-- skin Bedrock via API Geyser
-- avatar correct sur le site
+- detecte les joueurs Bedrock avec le prefixe `.`
+- retire le prefixe pour obtenir le gamertag Xbox
+- recupere le XUID via l API Geyser
+- recupere la texture Bedrock via l API Geyser
+- applique le skin via une commande SkinsRestorer configurable
+
+## Commandes
+
+- `/moodskins reload`
+- `/moodskins debug <joueur>`
+- `/moodskins apply <joueur>`
+
+## Build
+
+Le repo contient un `pom.xml` a la racine pour etre construit par le workflow global MoodCraftBridge.
+
+Le JAR final attendu est :
+
+```text
+MoodSkins.jar
+```

@@ -1,0 +1,15 @@
+bedrock-prefix: "."
+apply-delay-ticks: 60
+cache-minutes: 1440
+geyser-api-base: "https://api.geysermc.org/v2"
+
+messages:
+  prefix: "&cMoodSkins &8» &f"
+  reloaded: "Configuration rechargee."
+  only-player: "Commande joueur uniquement."
+  no-texture: "Texture introuvable pour {player}."
+  applied: "Skin applique pour {player}."
+
+commands:
+  apply:
+    - "skinsrestorer set {player} {texture_url}"
